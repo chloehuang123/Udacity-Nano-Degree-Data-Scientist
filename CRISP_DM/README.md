@@ -131,4 +131,12 @@ Deep Learning
 Fancy machine learning algorithms
 With that, you will be getting a more in depth look at these items, but it is worth mentioning (given the massive amount of hype) that they do not solve all the problems. Deep learning cannot turn bad data into good conclusions. Or bad questions into amazing results.
 
+In the modeling section, you will learn that step three of CRISP-DM is essential to getting the most out of your data. In this case, we are interested in using any of the variables we can from the dataset to predict an individual's salary.
 
+The variables we use to predict are commonly called X (or an X matrix). The column we are interested in predicting is commonly called y (or the response vector).
+
+In this case X is all the variables in the dataset that are not salary, while y is the salary column in the dataset.
+
+On the next page, you will see what happens when we try to use sklearn to fit a model to the data, and we will do some work to get useful predictions out of our sklearn model.
+
+[Notebook + Quiz: What Happened?](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/What%20Happened.ipynb)
