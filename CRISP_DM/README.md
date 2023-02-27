@@ -52,3 +52,5 @@ Luckily stackoverflow has already collected the data for us. However, we still n
 We will discuss the advantages and disadvantages of the strategies discussed in this lesson.
 
 [Notebook + Quiz: How To Break Into the Field](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/How%20To%20Break%20Into%20the%20Field.ipynb)
+
+[Notebook + Quiz: Job Satisfaction](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Job%20Satisfaction.ipynb)
