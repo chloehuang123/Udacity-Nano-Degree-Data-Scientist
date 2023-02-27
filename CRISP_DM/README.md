@@ -54,3 +54,40 @@ We will discuss the advantages and disadvantages of the strategies discussed in 
 [Notebook + Quiz: How To Break Into the Field](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/How%20To%20Break%20Into%20the%20Field.ipynb)
 
 [Notebook + Quiz: Job Satisfaction](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Job%20Satisfaction.ipynb)
+
+When looking at the first two questions:
+
+How to break into the field?
+What are the placement and salaries for those who attended a coding bootcamp?
+we did not need to do any predictive modeling. We only used descriptive and a little inferential statistics to retrieve the results.
+
+Therefore, all steps of CRISP-DM were not necessary for these first two questions. CRISP-DM states 6 steps:
+
+1. Business Understanding
+
+2. Data Understanding
+
+3. Prepare Data
+
+4. Data Modeling
+
+5. Evaluate the Results
+
+6. Deploy
+
+For these first two questions, we did not need step 4. In the previous notebooks, you performed steps 3 and 5 without needing step 4 at all. A lot of the hype in data science, artificial intelligence, and deep learning is integrated into step 4, but there are still plenty of questions to be answered not using machine learning, artificial intelligence, and deep learning.
+
+All Data Science Problems Involve
+Curiosity.
+
+The right data.
+
+A tool of some kind (Python, Tableau, Excel, R, etc.) used to find a solution (You could use your head, but that would be inefficient with the massive amounts of data being generated in the world today).
+
+Well communicated or deployed solution.
+Extra Useful Tools to Know But That Are NOT Necessary for ALL Projects
+Deep Learning
+Fancy machine learning algorithms
+With that, you will be getting a more in depth look at these items, but it is worth mentioning (given the massive amount of hype) that they do not solve all the problems. Deep learning cannot turn bad data into good conclusions. Or bad questions into amazing results.
+
+
