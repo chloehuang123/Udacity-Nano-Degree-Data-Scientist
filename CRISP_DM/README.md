@@ -186,3 +186,13 @@ There are easy ways using pandas to create dummy variables to track the missing 
 [Notebook + Quiz: Removing Values](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Removing%20Values.ipynb)
 
 [Notebook + Quiz: Removing Data Part II](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Removing%20Data%20Part%20II.ipynb)
+
+### Imputing Missing Values
+
+Imputation is likely the most common method for working with missing values for any data science team. The methods shown here included the frequently used methods of imputing the mean, median, or mode of a column into the missing values for the column.
+
+There are many advanced techniques for imputing missing values including using machine learning and bayesian statistical approaches. This could be techniques as simple as using k-nearest neighbors to find the features that are most similar, and using the values those features have to fill in values that are missing or complex methods like those in the very popular AMELIA library.
+
+Regardless your imputation approach, you should be very cautious of the BIAS you are imputing into any model that uses these imputed values. Though imputing values is very common, and often leads to better predictive power in machine learning models, it can lead to over generalizations. In extremely advanced techniques in Data Science, this can even mean ethical implications. Machines can only 'learn' from the data they are provided. If you provide biased data (due to imputation, poor data collection, etc.), it should be no surprise, you will achieve results that are biased.
+
+
