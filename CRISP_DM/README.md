@@ -140,3 +140,47 @@ In this case X is all the variables in the dataset that are not salary, while y 
 On the next page, you will see what happens when we try to use sklearn to fit a model to the data, and we will do some work to get useful predictions out of our sklearn model.
 
 [Notebook + Quiz: What Happened?](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/What%20Happened.ipynb)
+
+### Working With Missing Values
+
+There are two main 'pain' points for passing data to machine learning models in sklearn:
+
+Missing Values
+Categorical Values
+Sklearn does not know how you want to treat missing values or categorical variables, and there are lots of methods for working with each. For this lesson, we will look at common, quick fixes. These methods help you get your models into production quickly, but thoughtful treatment of missing values and categorical variables should be done to remove bias and improve predictions over time.
+
+Three strategies for working with missing values include:
+
+We can remove (or “drop”) the rows or columns holding the missing values.
+We can impute the missing values.
+We can build models that work around them, and only use the information provided.
+
+Though dropping rows and/or columns holding missing values is quite easy to do using numpy and pandas, it is often not appropriate.
+
+Understanding why the data is missing is important before dropping these rows and columns. In this video you saw a number of situations in which dropping values was not a good idea. These included
+
+Dropping data values associated with the effort or time an individual put into a survey.
+Dropping data values associated with sensitive information.
+In either of these cases, the missing values hold information. A quick removal of the rows or columns associated with these missing values would remove missing data that could be used to better inform models.
+
+Instead of removing these values, we might keep track of the missing values using indicator values, or counts associated with how many questions an individual skipped.
+
+### Removing Data - When Is It OK?
+
+In the last video, you saw cases in which dropping rows or columns associated with missing values would not be a good idea. There are other cases in which dropping rows or columns associated with missing values would be okay.
+
+A few instances in which dropping a row might be okay are:
+
+Dropping missing data associated with mechanical failures.
+The missing data is in a column that you are interested in predicting.
+Other cases when you should consider dropping data that are not associated with missing data:
+
+Dropping columns with no variability in the data.
+Dropping data associated with information that you know is not correct.
+In handling removing data, you should think more about why is this missing or why is this data incorrectly input to see if an alternative solution might be used than dropping the values.
+
+One common strategy for working with missing data is to understand the proportion of a column that is missing. If a large proportion of a column is missing data, this is a reason to consider dropping it.
+
+There are easy ways using pandas to create dummy variables to track the missing values, so you can see if these missing values actually hold information (regardless of the proportion that are missing) before choosing to remove a full column.
+
+[Notebook + Quiz: Removing Values](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Removing%20Values.ipynb)
