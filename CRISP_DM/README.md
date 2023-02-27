@@ -13,3 +13,5 @@ The lessons leading up to the first project are about helping you go through CRI
 `5.` Evaluate the Results
 
 `6.` Deploy
+
+[Quiz + Notebook: A Look at the Data](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/A%20Look%20at%20the%20Data.ipynb)
