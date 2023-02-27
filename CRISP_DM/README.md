@@ -27,6 +27,47 @@ How can we better retain information?
 
 [Quiz + Notebook: A Look at the Data](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/A%20Look%20at%20the%20Data.ipynb)
 
+
+When looking at the first two questions:
+
+How to break into the field?
+What are the placement and salaries for those who attended a coding bootcamp?
+we did not need to do any predictive modeling. We only used descriptive and a little inferential statistics to retrieve the results.
+
+Therefore, all steps of CRISP-DM were not necessary for these first two questions. The process would look closer to the following:
+
+1. Business Understanding
+
+2. Data Understanding
+
+3. Prepare Data
+
+4. Evaluate the Results
+
+5. Deploy
+
+However, for the last two questions:
+
+How well can we predict an individual's salary? What aspects correlate well to salary?
+
+How well can we predict an individual's job satisfaction? What aspects correlate well to job satisfaction?
+
+We will need to use a predictive model. We will need to pick up at step 3 to answer these two questions, so let's get started. The process for answering these last two questions will follow the full 6 steps shown here.
+
+1. Business Understanding
+
+2. Data Understanding
+
+3. Prepare Data
+
+4. Model Data
+
+5. Evaluate the Results
+
+6. Deploy
+
+
+
 Business and Data Understanding
 Business Questions
 How do I break into the field?
