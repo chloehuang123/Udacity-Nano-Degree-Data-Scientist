@@ -184,3 +184,5 @@ One common strategy for working with missing data is to understand the proportio
 There are easy ways using pandas to create dummy variables to track the missing values, so you can see if these missing values actually hold information (regardless of the proportion that are missing) before choosing to remove a full column.
 
 [Notebook + Quiz: Removing Values](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Removing%20Values.ipynb)
+
+[Notebook + Quiz: Removing Data Part II](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Removing%20Data%20Part%20II.ipynb)
