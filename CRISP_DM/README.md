@@ -36,3 +36,19 @@ How well can we predict an individual's job satisfaction? What aspects correlate
 Data Understanding
 You will be using the Stackoverflow survey data to get some insight into each of these questions. In the rest of the lesson, you can work along with me to answer these questions, or you can take your own approach to see if the conclusions you draw are similar to those you would find throughout this lesson.
 
+The CRISP-DM Process (Cross Industry Process for Data Mining)
+We have now defined the questions we want to answer and had a look through the data available to find the answers, that is, we have looked at the first two steps here:
+
+1. Business Understanding
+
+2. Data Understanding
+
+We can now look at the third step of the process:
+
+3. Prepare Data
+
+Luckily stackoverflow has already collected the data for us. However, we still need to wrangle the data in a way for us to answer our questions. The wrangling and cleaning process is said to take 80% of the time of the data analysis process. You will see that will hold true through this lesson, as a majority of the remaining parts of this lesson will be around basic data wrangling strategies.
+
+We will discuss the advantages and disadvantages of the strategies discussed in this lesson.
+
+[Notebook + Quiz: How To Break Into the Field](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/How%20To%20Break%20Into%20the%20Field.ipynb)
