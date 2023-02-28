@@ -197,3 +197,8 @@ Regardless your imputation approach, you should be very cautious of the BIAS you
 [Notebook + Quiz: Imputation Methods & Resources](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Imputation%20Methods%20and%20Resources%20-.ipynb)
 
 [Notebook + Quiz: Imputing Values](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Imputing%20Values.ipynb)
+
+### Working With Categorical Variables
+Notice that in the earlier video in the pre-requisites, there was a mention of dropping a column to assure your X matrix is full rank. This is not true using LinearRegression within sklearn, because there is a ridge (or L2 penalty used by default). However, dropping the columns would also be okay, it is just not required, as it is with OLS without a penalty.
+
+You will see this holds true in the upcoming content.
