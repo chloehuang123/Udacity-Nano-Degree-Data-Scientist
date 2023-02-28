@@ -195,3 +195,5 @@ There are many advanced techniques for imputing missing values including using m
 Regardless your imputation approach, you should be very cautious of the BIAS you are imputing into any model that uses these imputed values. Though imputing values is very common, and often leads to better predictive power in machine learning models, it can lead to over generalizations. In extremely advanced techniques in Data Science, this can even mean ethical implications. Machines can only 'learn' from the data they are provided. If you provide biased data (due to imputation, poor data collection, etc.), it should be no surprise, you will achieve results that are biased.
 
 [Notebook + Quiz: Imputation Methods & Resources](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Imputation%20Methods%20and%20Resources%20-.ipynb)
+
+[Notebook + Quiz: Imputing Values]()
