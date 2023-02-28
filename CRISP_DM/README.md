@@ -203,4 +203,4 @@ Notice that in the earlier video in the pre-requisites, there was a mention of d
 
 You will see this holds true in the upcoming content.
 
-[Notebook + Quiz: Categorical Variables]()
+[Notebook + Quiz: Categorical Variables](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Categorical%20Variables.ipynb)
