@@ -1,4 +1,4 @@
-# udacity-nano-data-scientist
+# Udacity-Nanodegree-Data-Scientist
 
 ## Part 02 : Introduction to Data Science
 ### Module 01: Introduction to Data Science
