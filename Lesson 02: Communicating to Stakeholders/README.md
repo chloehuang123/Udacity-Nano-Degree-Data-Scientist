@@ -11,3 +11,15 @@
 5.Licensing, Authors, Acknowledgements - You always want to give credit where necessary. Acknowledge other contributors, helpful peers, data providers, etc.
 
 You can use this to assist as a template for your own post.
+
+### Useful Commands
+
+From this video, you saw the use of the following commands:
+
+git clone - clone a repository from any url to your local machine
+
+git add * - adds all the files of the repository to the staging area
+
+git commit -m 'comment about changes made' - commits changes and adds a message for changes made
+
+git push - pushes your changes to a remote repository
