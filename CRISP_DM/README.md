@@ -208,4 +208,4 @@ You will see this holds true in the upcoming content.
 ### Overfitting
 Overfitting is a common problem when our model does not generalize to data it has not seen before. Assuring you build models that not only work for the data the model was trained on, but also generalize to new (test) data, is key to building models that will be successful to deploy and that will become successful in production.
 
-[Notebook + Quiz: Putting It All Together]()
+[Notebook + Quiz: Putting It All Together](https://github.com/chloehuang123/udacity-nano-data-scientist/blob/main/CRISP_DM/Putting%20It%20All%20Together.ipynb)
