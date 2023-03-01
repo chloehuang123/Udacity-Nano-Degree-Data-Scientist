@@ -245,8 +245,8 @@ To get some practice with this second technique, you will be writing a blog post
 
 As a data scientist, communication of your results to both other team members and to less technical members of a company is a critical component
 
-Recap
-CRISP-DM
+### Recap
+### CRISP-DM
 In working with missing values, categorical variables, and building out your model, it was probably easy to lose site of the big picture of the process. Let's take a quick second to recap that here, and pull together the results you should have arrived through your analysis.
 
 1. Business Understanding
