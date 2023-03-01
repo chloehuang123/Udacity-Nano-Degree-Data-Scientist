@@ -234,3 +234,15 @@ We were finally able to model the data, but we had some back and forth with step
 5. Results
 
 Results are the findings from our wrangling and modeling. Below are some questions to recap the results found so far.
+
+### The Data Science Process Evaluate And Deploy
+Two techniques for deploying your results include:
+
+Automated techniques built into computer systems or across the web. You will do this later in this program!
+
+Communicate results with text, images, slides, dashboards, or other presentation methods to company stakeholders.
+To get some practice with this second technique, you will be writing a blog post for the first project and turning in a Github repository that shares your work.
+
+As a data scientist, communication of your results to both other team members and to less technical members of a company is a critical component
+
+
