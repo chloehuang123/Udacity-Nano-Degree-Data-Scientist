@@ -24,7 +24,7 @@ git commit -m 'comment about changes made' - commits changes and adds a message 
 
 git push - pushes your changes to a remote repository
 
-Recap
+### Recap
 You are so ready to take on this project! I hope you are excited to create your own post! There was a lot to take away from this lesson. Here were the big points I had in mind:
 
 Related to Marketing Yourself
