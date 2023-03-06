@@ -12,3 +12,5 @@ This is my notes for Nano degree in Data Scientist on Udacity.
 
 ## Part 03 : Software Engineering
 [Lesson 01: Introduction to Software Engineering](https://github.com/chloehuang123/udacity-nano-data-scientist/tree/main/Lesson%2001:%20Introduction%20to%20Software%20Engineering)
+
+[Lesson 02: Software Engineering Practices Pt I]()
