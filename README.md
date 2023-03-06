@@ -9,3 +9,6 @@
 [Lesson 03: Project: Writing a Data Scientist Blog Post]()
 
 [Lesson 04: Optimize Your GitHub Profile]()
+
+## Part 03 : Software Engineering
+[Lesson 01: Introduction to Software Engineering]()
