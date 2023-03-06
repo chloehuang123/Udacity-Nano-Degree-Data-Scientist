@@ -1,4 +1,5 @@
 # Udacity-Nanodegree-Data-Scientist
+This is my notes for Nano degree in Data Scientist on Udacity.
 
 ## Part 02 : Introduction to Data Science
 [Lesson 01: The Data Science Process](https://github.com/chloehuang123/udacity-nano-data-scientist/tree/main/CRISP_DM)
