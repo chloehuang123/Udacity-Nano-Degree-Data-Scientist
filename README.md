@@ -6,9 +6,9 @@
 
 [Lesson 02: Communicating to Stakeholders](https://github.com/chloehuang123/udacity-nano-data-scientist/tree/main/Lesson%2002:%20Communicating%20to%20Stakeholders)
 
-[Lesson 03: Project: Writing a Data Scientist Blog Post]()
+[Lesson 03: Project: Writing a Data Scientist Blog Post](https://github.com/chloehuang123/Uncovering_Insights_from_Airbnbs_Boston_Housing)
 
-[Lesson 04: Optimize Your GitHub Profile]()
+[Lesson 04: Optimize Your GitHub Profile](https://github.com/chloehuang123)
 
 ## Part 03 : Software Engineering
 [Lesson 01: Introduction to Software Engineering]()
