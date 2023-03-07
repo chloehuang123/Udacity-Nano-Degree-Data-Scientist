@@ -31,7 +31,7 @@ Since it isn't easy to write your best code while you're still trying to just ge
 
 You become a much stronger programmer when you're constantly looking to improve your code. The more you refactor, the easier it will be to structure and write good code the first time.
 
-###Writing Clean Code: Meaningful Names
+### Writing Clean Code: Meaningful Names
 
 Tip: Use meaningful names
 
