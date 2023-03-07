@@ -119,3 +119,54 @@ Project Documentation - project level
 - One way comments are used is to document the major steps of complex code to help readers follow. Then, you may not have to understand the code to follow what it does. However, others would argue that this is using comments to justify bad code, and that if code requires comments to follow, it is a sign refactoring is needed.
 
 - Comments are valuable for explaining where code cannot. For example, the history behind why a certain method was implemented a specific way. Sometimes an unconventional or seemingly arbitrary approach may be applied because of some obscure external variable causing side effects. These things are difficult to explain with code.
+
+### Scenario #1
+
+Let's walk through the git commands that go along with each step in the scenario you just observed in the video above.
+
+STEP 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch.
+Switch to the develop branch
+```
+git checkout develop
+```
+Pull latest changes in the develop branch
+```
+git pull
+```
+
+STEP 2: When you start working on this demographic feature, you create a new branch for this called demographic, and start working on your code in this branch.
+Create and switch to new branch called demographic from develop branch
+git checkout -b demographic
+
+Work on this new feature and commit as you go
+git commit -m 'added gender recommendations'
+git commit -m 'added location specific recommendations'
+...
+
+STEP 3: However, in the middle of your work, you need to work on another feature. So you commit your changes on this demographic branch, and switch back to the develop branch.
+Commit changes before switching
+git commit -m 'refactored demographic gender and location recommendations '
+
+Switch to the develop branch
+git checkout develop
+
+STEP 4: From this stable develop branch, you create another branch for a new feature called friend_groups.
+Create and switch to new branch called friend_groups from develop branch
+git checkout -b friend_groups
+
+STEP 5: After you finish your work on the friend_groups branch, you commit your changes, switch back to the development branch, merge it back to the develop branch, and push this to the remote repository’s develop branch.
+Commit changes before switching
+git commit -m 'finalized friend_groups recommendations '
+
+Switch to the develop branch
+git checkout develop
+
+Merge friend_groups branch to develop
+git merge --no-ff friends_groups
+
+Push to remote repository
+git push origin develop
+
+STEP 6: Now, you can switch back to the demographic branch to continue your progress on that feature.
+Switch to the demographic branch
+git checkout demographic
