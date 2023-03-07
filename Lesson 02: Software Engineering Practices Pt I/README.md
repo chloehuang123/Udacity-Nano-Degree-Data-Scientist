@@ -233,3 +233,48 @@ Push changes to remote repository
 ```
 git push origin develop
 ```
+
+### Scenario #3
+Let's walk through the git commands that go along with each step in the scenario you just observed in the video above.
+
+**Step 1: Andrew commits his changes to the documentation branch, switches to the development branch, and pulls down the latest changes from the cloud on this development branch, including the change I merged previously for the friends group feature.**
+
+Commit changes on documentation branch
+```
+git commit -m "standardized all docstrings in process.py"
+```
+
+Switch to develop branch
+```
+git checkout develop
+```
+
+Pull latest changes on develop down
+```
+git pull
+```
+
+**Step 2: Then, Andrew merges his documentation branch on the develop branch on his local repository, and then pushes his changes up to update the develop branch on the remote repository.**
+
+Merge documentation branch to develop
+```
+git merge --no-ff documentation
+```
+
+Push changes up to remote repository
+```
+git push origin develop
+```
+
+**Step 3: After the team reviewed both of your work, they merge the updates from the development branch to the master branch. Now they push the changes to the master branch on the remote repository. These changes are now in production.**
+
+Merge develop to master
+```
+git merge --no-ff develop
+```
+
+Push changes up to remote repository
+```
+git push origin master
+```
+
