@@ -94,3 +94,5 @@ Execute faster
 Take up less space in memory/storage
 
 The project you're working on would determine which of these is more important to optimize for your company or product. When we are performing lots of different transformations on large amounts of data, this can make orders of magnitudes of difference in performance.
+
+[Quiz: Optimizing - Common Books](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20Software%20Engineering%20Practices%20Pt%20I/optimizing_code_common_books.ipynb)
