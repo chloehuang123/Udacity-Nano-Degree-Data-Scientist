@@ -82,3 +82,5 @@ Arbitrary variable names in general functions can actually make the code more re
 **Tip: Try to use fewer than three arguments per function**
 
 Try to use no more than three arguments when possible. This is not a hard rule and there are times it is more appropriate to use many parameters. But in many cases, it's more effective to use fewer arguments. Remember we are modularizing to simplify our code and make it more efficient to work with. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
+
+[Quiz: Refactoring - Wine Quality](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20Software%20Engineering%20Practices%20Pt%20I/refactor_wine_quality.ipynb)
