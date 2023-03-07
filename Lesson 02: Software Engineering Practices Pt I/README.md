@@ -278,3 +278,16 @@ Push changes up to remote repository
 git push origin master
 ```
 
+### Resources
+
+There's a great article on a successful git branching strategy that you should really read [here](https://nvie.com/posts/a-successful-git-branching-model/).
+
+**Note on Merge Conflicts**
+
+For the most part, git makes merging changes between branches really simple. However, there are some cases where git will be confused on how to combine two changes, and asks you for help. This is called a merge conflict.
+
+Mostly commonly, this happens when two branches modify the same file.
+
+For example, in this situation, let’s say I deleted a line that Andrew modified on his branch. Git wouldn’t know whether to delete the line or modify it. Here, you need to tell git which change to take, and some tools even allow you to edit the change manually. If it isn’t straightforward, you may have to consult with the developer of the other branch to handle a merge conflict.
+
+You can learn more about merge conflicts and methods to handle them [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts).
