@@ -51,5 +51,9 @@ Test driven development for data science is relatively new and has a lot of expe
 ### Logging
 Logging is valuable for understanding the events that occur while running your program. For example, if you run your model over night and see that it's producing ridiculous results the next day, log messages can really help you understand more about the context in which this occurred. Lets learn about the qualities that make a log message effective.
 
+### Code Reviews
+Code reviews benefit everyone in a team to promote best programming practices and prepare code for production. Let's go over what to look for in a code review and some tips on how to conduct one.
 
+- [Code Review](https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+- [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices)
 
