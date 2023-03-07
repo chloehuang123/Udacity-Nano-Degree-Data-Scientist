@@ -98,3 +98,16 @@ The project you're working on would determine which of these is more important t
 [Quiz: Optimizing - Common Books](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20Software%20Engineering%20Practices%20Pt%20I/optimizing_code_common_books.ipynb)
 
 [Solution: Optimizing - Holiday Gifts](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20Software%20Engineering%20Practices%20Pt%20I/optimizing_code_holiday_gifts.ipynb)
+
+### Documentation
+
+DOCUMENTATION: additional text or illustrated information that comes with or is embedded in the code of software.
+Helpful for clarifying complex parts of code, making your code easier to navigate, and quickly conveying how and why different components of your program are used.
+
+Several types of documentation can be added at different levels of your program:
+
+In-line Comments - line level
+
+Docstrings - module and function level
+
+Project Documentation - project level
