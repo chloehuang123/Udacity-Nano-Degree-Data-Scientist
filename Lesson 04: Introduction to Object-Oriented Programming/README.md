@@ -122,3 +122,16 @@ from shirt import Shirt.
 For now, as you get used to OOP syntax, you'll be completing exercises in Jupyter notebooks. But midway through the lesson, you'll modularize object-oriented code into separate files.
 
 [Exercise: OOP Syntax Practice - Part 2](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/exercise.ipynb)
+
+### Commenting Object-Oriented Code
+Did you notice anything special about the answer key in the previous exercise? The Pants class and the SalesPerson class contained docstrings! A docstring is a type of comment that describes how a Python module, function, class or method works. Docstrings, therefore, are not unique to object-oriented programming. This section of the course is merely reminding you to use docstrings and to comment your code. It's not just going to help you understand and maintain your code. It will also make you a better job candidate.
+
+From this point on, please always comment your code. Use both in-line comments and document level comments as appropriate.
+
+Check out this [link](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) to read more about docstrings.
+
+### Docstrings and Object-Oriented Code
+Below is an example of a class with docstrings and a few things to keep in mind:
+
+- Make sure to indent your docstrings correctly or the code will not run. A docstring should be indented one indentation underneath the class or method being described.
+- You don't have to define 'self' in your method docstrings. It's understood that any method will have self as the first method input.
