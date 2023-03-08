@@ -183,3 +183,4 @@ class Pants:
         """
         return self.price * (1 - percentage)
 ```
+[Exercise: Code the Gaussian Class]()
