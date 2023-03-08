@@ -120,3 +120,5 @@ You would put the Shirt class into its own Python script called, say, shirt.py. 
 from shirt import Shirt.
 ```
 For now, as you get used to OOP syntax, you'll be completing exercises in Jupyter notebooks. But midway through the lesson, you'll modularize object-oriented code into separate files.
+
+[Exercise: OOP Syntax Practice - Part 2]()
