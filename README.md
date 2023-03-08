@@ -1,5 +1,6 @@
 # Udacity-Nanodegree-Data-Scientist
 This is my notes for Nano degree in [Data Scientist on Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=18847102053_c_individuals&utm_term=143779786032&utm_keyword=data%20scientist%20udacity_e&gclid=Cj0KCQiAgaGgBhC8ARIsAAAyLfH4ZdXGGtSYOLobQMi-OWTruPHdIMArNHyOnddQ5d1alDddeo36LkEaAiiyEALw_wcB).
+
 Udacity material resource can be found [here](https://github.com/udacity/DSND_Term2)
 
 ## Part 02 : Introduction to Data Science
