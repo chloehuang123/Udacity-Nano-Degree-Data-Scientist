@@ -121,4 +121,4 @@ from shirt import Shirt.
 ```
 For now, as you get used to OOP syntax, you'll be completing exercises in Jupyter notebooks. But midway through the lesson, you'll modularize object-oriented code into separate files.
 
-[Exercise: OOP Syntax Practice - Part 2]()
+[Exercise: OOP Syntax Practice - Part 2](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/exercise.ipynb)
