@@ -211,3 +211,5 @@ Here is a list of resources for advanced Python object-oriented programming topi
 
 ### Windows vs. macOS vs. Linux
 Linux, which our Udacity classroom workspaces use, is an operating system like Windows or macOS. One important difference is that Linux is free and open source whereas Windows is owned by Microsoft and macOS by Apple.
+
+If you are using macOS, you can open an application called "Terminal" and essentially use the same commands that you use in the workspace. That is because [Linux and MacOS are related](https://www.quora.com/Is-macOS-essentially-built-on-top-of-Linux).
