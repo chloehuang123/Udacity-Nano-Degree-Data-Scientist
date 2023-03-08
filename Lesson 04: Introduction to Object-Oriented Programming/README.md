@@ -230,3 +230,16 @@ A Python package does not need to use object-oriented programming. You could sim
 Object-oriented programs are relatively easy to expand especially because of inheritance
 Object-oriented programs obscure functionality from the user. Consider scipy packages. You don't need to know how the actual code works in order to use its classes and methods.
 
+### Conda
+Conda does two things: manages packages and manages environments.
+
+As a package manager, conda makes it easy to install Python packages especially for data science. For instance, typing conda install numpy will install the numpy package.
+
+As an environment manager, conda allows you to create silo-ed Python installations. With an environment manager, you can install packages on your computer without affecting your main Python installation.
+
+The command line code looks something like this:
+```
+conda create --name environmentname
+source activate environmentname
+conda install numpy
+```
