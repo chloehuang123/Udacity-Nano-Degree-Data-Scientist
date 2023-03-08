@@ -186,3 +186,5 @@ class Pants:
 [Exercise: Code the Gaussian Class](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/gaussian_code_exercise.ipynb)
 
 [Exercise: Code Magic Methods](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/magic_methods.ipynb)
+
+[Exercise: Inheritance with Clothing]()
