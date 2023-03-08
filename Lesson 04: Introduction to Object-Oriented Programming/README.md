@@ -187,4 +187,4 @@ class Pants:
 
 [Exercise: Code Magic Methods](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/magic_methods.ipynb)
 
-[Exercise: Inheritance with Clothing]()
+[Exercise: Inheritance with Clothing](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/inheritance_exercise_clothing.ipynb)
