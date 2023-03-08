@@ -189,4 +189,4 @@ class Pants:
 
 [Exercise: Inheritance with Clothing](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/inheritance_exercise_clothing.ipynb)
 
-[Inheritance Gaussian Class]()
+[Inheritance Gaussian Class](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/inheritance_probability_distribution.ipynb)
