@@ -257,4 +257,12 @@ python3 -m venv environmentname
 source environmentname/bin/activate
 pip install numpy
 ```
+### Which to Choose
+Whether you choose to create environments with venv or conda will depend on your use case. Conda is very helpful for data science projects, but conda can make generic Python software development a bit more confusing; that's the case for this project.
 
+If you create a conda environment, activate the environment, and then pip install the distributions package, you'll find that the system installs your package globally rather than in your local conda environment. However, if you create the conda environment and install pip simultaneously, you'll find that pip behaves as expected installing packages into your local environment:
+
+conda create --name environmentname pip
+On the other hand, using pip with venv works as expected. Pip and venv tend to be used for generic software development projects including web development. For this lesson on creating packages, you can use conda or venv if you want to develop locally on your computer and install your package.
+
+The video below shows how to use venv, which is what we recommend for this project.
