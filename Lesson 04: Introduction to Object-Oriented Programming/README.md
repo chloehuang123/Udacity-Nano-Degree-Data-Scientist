@@ -42,4 +42,4 @@ Self tells Python where to look in the computer's memory for the shirt_one objec
 
 The word self is just a convention. You could actually use any other name as long as you are consistent; however, you should always use self rather than some other word or else you might confuse people.
 
-[Exercise: OOP Syntax Practice - Part 1]()
+[Exercise: OOP Syntax Practice - Part 1](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming/shirt_exercise.ipynb)
