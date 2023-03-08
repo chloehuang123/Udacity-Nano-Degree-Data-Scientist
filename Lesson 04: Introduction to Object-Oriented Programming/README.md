@@ -208,3 +208,6 @@ Here is a list of resources for advanced Python object-oriented programming topi
 - [class attributes vs instance attributes](https://python-course.eu/oop/class-instance-attributes.php) - you can also define attributes at the class level or at the instance level
 - [multiple inheritance, mixins](https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556) - A class can inherit from multiple parent classes
 - [Python decorators](https://realpython.com/primer-on-python-decorators/) - Decorators are a short-hand way for using functions inside other functions
+
+### Windows vs. macOS vs. Linux
+Linux, which our Udacity classroom workspaces use, is an operating system like Windows or macOS. One important difference is that Linux is free and open source whereas Windows is owned by Microsoft and macOS by Apple.
