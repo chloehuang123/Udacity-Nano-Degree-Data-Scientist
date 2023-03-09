@@ -137,6 +137,6 @@ The database could be local to your website meaning that the database file is st
 
 Using a database with your web app goes beyond the scope of this introduction to web development, here are a few resources for using databases with Flask apps:
 
-[Tutorial - Using Databases with Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database)
-[SQL Alchemy- a Python toolkit for working with SQL](https://docs.sqlalchemy.org/en/20/)
-[Flask SQLAlchemy - a Flask library for using SQLAlchemy with Flask](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
+- [Tutorial - Using Databases with Flask](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database)
+- [SQL Alchemy- a Python toolkit for working with SQL](https://docs.sqlalchemy.org/en/20/)
+- [Flask SQLAlchemy - a Flask library for using SQLAlchemy with Flask](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
