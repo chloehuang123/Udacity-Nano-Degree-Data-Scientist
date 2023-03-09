@@ -22,3 +22,5 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 [Lesson 04: Introduction to Object-Oriented Programming](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2004:%20Introduction%20to%20Object-Oriented%20Programming)
 
 [Lesson 06: Web Development](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2006:%20Web%20Development)
+
+## Part 04 : Data Engineering
