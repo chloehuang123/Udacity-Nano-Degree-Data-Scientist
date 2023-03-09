@@ -24,3 +24,4 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 [Lesson 06: Web Development](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2006:%20Web%20Development)
 
 ## Part 04 : Data Engineering
+[Lesson 01: Introduction to Data Engineering]()
