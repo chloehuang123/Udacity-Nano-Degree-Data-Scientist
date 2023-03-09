@@ -48,4 +48,5 @@ is ensuring that the web address 'www.website.com/homepage` is associated with t
 If you'd like to know more details about decorators and how @app.route() works, check out these tutorials:
 
 [how @app.route works](https://ains.co/blog/things-which-arent-magic-flask-part-1.html)
+
 [general decorators tutorial](https://realpython.com/primer-on-python-decorators/)
