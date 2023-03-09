@@ -1,15 +1,15 @@
 # Lesson 01: Introduction to Data Engineering
 ### Course Roadmap
-* Data Engineering
+1. Data Engineering
 - Data Pipelines
 - ETL (Extract Transform Load) Pipelines
-* NLP Pipelines
+2. NLP Pipelines
 - Text Processing
 - Modeling
-* Machine Learning Pipelines
+3. Machine Learning Pipelines
 - Scikit-learn pipelines
 - Feature Union
 - Grid Search
-* Data Engineering Project
+4. Data Engineering Project
 - Classify disaster response messages
 - Skills: data pipelines, NLP pipelines, machine learning pipelines, supervised learning
