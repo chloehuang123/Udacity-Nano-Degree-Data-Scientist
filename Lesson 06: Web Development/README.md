@@ -26,3 +26,26 @@ def input_function():
 decorator_example = decorator(input_function)
 decorator_example()
 ```
+This code will print out:
+
+Decorator function
+
+I am an input function
+
+Instead of using a decorator function, you could get the same behavior with the following code:
+```
+input_function = decorator(input_function)
+input_function()
+```
+Because @app.route() has the . symbol, there's an implication that app is a class (or an instance of a class) and route is a method of that class. Hence a function written underneath @app.route() is going to get passed into the route method. The purpose of @app.route() is to make sure the correct web address gets associated with the correct html template. This code
+```
+@app.route('/homepage')
+def some_function()
+  return render_template('index.html')
+```
+is ensuring that the web address 'www.website.com/homepage` is associated with the index.html template.
+
+If you'd like to know more details about decorators and how @app.route() works, check out these tutorials:
+
+[how @app.route works](https://ains.co/blog/things-which-arent-magic-flask-part-1.html)
+[general decorators tutorial](https://realpython.com/primer-on-python-decorators/)
