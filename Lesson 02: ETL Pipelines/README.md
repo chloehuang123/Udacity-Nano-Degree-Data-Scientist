@@ -81,4 +81,6 @@ In this lesson, you'll see how to extract data from the web using an APIs (Appli
 
 Companies and organizations provide APIs so that programmers can access data in an official, safe way. APIs allow you to download, and sometimes even upload or modify, data from a web server without giving you direct access.
 
-[1_csv_exercise.ipynb](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/1_csv_exercise.ipynb)
+[Exercise: CSV](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/1_csv_exercise.ipynb)
+
+[Exercise: JSON and XML](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/2_extract_exercise.ipynb)
