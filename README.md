@@ -25,3 +25,5 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 
 ## Part 04 : Data Engineering
 [Lesson 01: Introduction to Data Engineering]()
+
+[Lesson 02: ETL Pipelines]()
