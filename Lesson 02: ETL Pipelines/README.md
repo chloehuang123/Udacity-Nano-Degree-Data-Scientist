@@ -67,3 +67,16 @@ P162228	Other	World;World	RE	Investment Project Financing
 P163962	Africa	Democratic Republic of the Congo;Democratic Republic of the Congo	PE	Investment Project Financing
 P167672	South Asia	People's Republic of Bangladesh;People's Republic of Bangladesh	PE	Investment Project Financing
 
+### Text Files
+This course won't go into much detail about text data. There are other Udacity courses, namely on natural language processing, that go into the details of processing text for machine learning.
+
+Text data present their own issues. Whereas CSV, JSON, XML, and SQL data are organized with a clear structure, text is more ambiguous. For example, the World Bank project data country names are written like this
+```
+Democratic Republic of the Congo;Democratic Republic of the Congo
+```
+In the World Bank Indicator data sets, the Democratic Republic of the Congo is represented by the abbreviation "Congo, Dem. Rep." You'll have to clean these country names to join the data sets together.
+
+### Extracting Data from the Web
+In this lesson, you'll see how to extract data from the web using an APIs (Application Programming Interface). APIs generally provide data in either JSON or XML format.
+
+Companies and organizations provide APIs so that programmers can access data in an official, safe way. APIs allow you to download, and sometimes even upload or modify, data from a web server without giving you direct access.
