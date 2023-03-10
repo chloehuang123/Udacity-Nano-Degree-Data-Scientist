@@ -84,3 +84,5 @@ Companies and organizations provide APIs so that programmers can access data in 
 [Exercise: CSV](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/1_csv_exercise.ipynb)
 
 [Exercise: JSON and XML](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/2_extract_exercise.ipynb)
+
+[Exercise: SQL Databases](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/3_sql_exercise.ipynb)
