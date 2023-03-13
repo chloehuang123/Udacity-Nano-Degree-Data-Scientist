@@ -92,3 +92,5 @@ Companies and organizations provide APIs so that programmers can access data in 
 [Exercise: Combining Data](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/5_combining_data.ipynb)
 
 [Exercise: Cleaning Data](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/6_cleaning_data.ipynb)
+
+[Exercise: Data Types](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/7_datatypes_exercise.ipynb)
