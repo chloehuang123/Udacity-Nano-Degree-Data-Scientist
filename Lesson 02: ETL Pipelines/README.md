@@ -98,3 +98,5 @@ Companies and organizations provide APIs so that programmers can access data in 
 [Exercise: Parsing Dates](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/8_parsingdates_exercise.ipynb)
 
 [Exercise: Matching Encodings](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/9_encodings_exercise.ipynb)
+
+[Exercise: Imputation](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/10_imputations_exercise.ipynb)
