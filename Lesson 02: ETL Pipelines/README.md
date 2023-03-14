@@ -100,3 +100,10 @@ Companies and organizations provide APIs so that programmers can access data in 
 [Exercise: Matching Encodings](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/9_encodings_exercise.ipynb)
 
 [Exercise: Imputation](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/10_imputations_exercise.ipynb)
+
+
+### When to Remove a Feature
+As mentioned in the video, if you have five categories, you only really need four features. For example, if the categories are "agriculture", "banking", "retail", "roads", and "government", then you only need four of those five categories for dummy variables. This topic is somewhat outside the scope of a data engineer.
+
+In some cases, you don't necessarily need to remove one of the features. It will depend on your application. In regression models, which use linear combinations of features, removing a dummy variable is important. For a decision tree, removing one of the variables is not needed.
+
