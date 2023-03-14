@@ -110,3 +110,5 @@ In some cases, you don't necessarily need to remove one of the features. It will
 [Exercise: Dummy Variables](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/12_dummyvariables_exercise.ipynb)
 
 [Exercise: Outliers Part 1](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/13_outliers_exercise.ipynb)
+
+[Exercise: Outliers - Part 2](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/14_outliers_exercise.ipynb)
