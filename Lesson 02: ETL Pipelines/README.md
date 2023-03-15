@@ -114,3 +114,5 @@ In some cases, you don't necessarily need to remove one of the features. It will
 [Exercise: Outliers - Part 2](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/14_outliers_exercise.ipynb)
 
 [Exercise: Scaling Data](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2002:%20ETL%20Pipelines/15_scaling_exercise.ipynb)
+
+[Exercise: Feature Engineering]()
