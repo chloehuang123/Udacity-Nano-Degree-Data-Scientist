@@ -26,3 +26,9 @@ The 3 stages of an NLP pipeline are: Text Processing > Feature Extraction > Mode
 - Modeling: Design a statistical or machine learning model, fit its parameters to training data, use an optimization procedure, and then use it to make predictions about unseen data.
 
 This process isn't always linear and may require additional steps.
+
+## Stage 1: Text Processing
+The first chunk of this lesson will explore the steps involved in text processing, the first stage of the NLP pipeline.
+
+- Extracting plain text: Textual data can come from a wide variety of sources: the web, PDFs, word documents, speech recognition systems, book scans, etc. Your goal is to extract plain text that is free of any source specific markup or constructs that are not relevant to your task.
+- Reducing complexity: Some features of our language like capitalization, punctuation, and common words such as a, of, and the, often help provide structure, but don't add much meaning. Sometimes it's best to remove them if that helps reduce the complexity of the procedures you want to apply later.
