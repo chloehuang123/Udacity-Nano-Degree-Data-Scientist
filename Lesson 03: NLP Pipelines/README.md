@@ -1,5 +1,5 @@
 # Lesson 03: NLP Pipelines
-## Concept 01: NLP and Pipelines
+## 01: NLP and Pipelines
 
 ### Natural Language Processing Pipelines
 In this lesson, you'll be introduced to some of the steps involved in a NLP pipeline:
@@ -18,3 +18,10 @@ TF-IDF
 Word Embeddings
 Modeling
 
+## 02: How NLP Pipelines Work
+The 3 stages of an NLP pipeline are: Text Processing > Feature Extraction > Modeling.
+
+Text Processing: Take raw input text, clean it, normalize it, and convert it into a form that is suitable for feature extraction.
+Feature Extraction: Extract and produce feature representations that are appropriate for the type of NLP task you are trying to accomplish and the type of model you are planning to use.
+Modeling: Design a statistical or machine learning model, fit its parameters to training data, use an optimization procedure, and then use it to make predictions about unseen data.
+This process isn't always linear and may require additional steps.
