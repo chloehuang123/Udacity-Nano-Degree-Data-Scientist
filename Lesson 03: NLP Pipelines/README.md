@@ -51,3 +51,5 @@ Let's walk through an example of cleaning text data from a popular source - the 
 [Notebook: Cleaning](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/cleaning_practice.ipynb)
 
 [Notebook: Normalization](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/normalization_practice.ipynb)
+
+[Notebook: Tokenization](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/tokenization_practice.ipynb)
