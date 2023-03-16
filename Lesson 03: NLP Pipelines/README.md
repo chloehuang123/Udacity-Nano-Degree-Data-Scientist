@@ -44,3 +44,7 @@ You'll prepare text data from different sources with the following text processi
 6. Converting words into their dictionary forms, using stemming and lemmatization
 
 After performing these steps, your text will capture the essence of what was being conveyed in a form that is easier to work with.
+
+## Cleaning
+Let's walk through an example of cleaning text data from a popular source - the web. You'll be introduced to helpful tools in working with this data, including the requests library, regular expressions, and Beautiful Soup.
+
