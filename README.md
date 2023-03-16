@@ -27,3 +27,5 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 [Lesson 01: Introduction to Data Engineering]()
 
 [Lesson 02: ETL Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2002:%20ETL%20Pipelines)
+
+[Lesson 03: NLP Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2003:%20NLP%20Pipelines)
