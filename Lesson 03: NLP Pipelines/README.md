@@ -62,3 +62,5 @@ Note: Part-of-speech tagging using a predefined grammar like this is a simple, b
 There are other more advanced forms of POS tagging that can learn sentence structures and tags from given data, including Hidden Markov Models (HMMs) and Recurrent Neural Networks (RNNs).
 
 [Notebook: POS and NER](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/pos_ner_practice.ipynb)
+
+[Notebook: Stemming and Lemmatization](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/stem_lemmatize_practice.ipynb)
