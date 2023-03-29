@@ -68,3 +68,11 @@ There are other more advanced forms of POS tagging that can learn sentence struc
 <img src='https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/Screenshot%202023-03-29%20at%201.33.52%20PM.png'/>
 
 [Notebook: Bag of Words and TF-IDF](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/bow_tfidf_practice.ipynb)
+
+## Modeling
+The final stage of the NLP pipeline is modeling, which includes designing a statistical or machine learning model, fitting its parameters to training data, using an optimization procedure, and then using it to make predictions about unseen data.
+
+The nice thing about working with numerical features is that it allows you to choose from all machine learning models or even a combination of them.
+
+Once you have a working model, you can deploy it as a web app, mobile app, or integrate it with other products and services. The possibilities are endless!
+
