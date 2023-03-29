@@ -60,3 +60,5 @@ Let's walk through an example of cleaning text data from a popular source - the 
 Note: Part-of-speech tagging using a predefined grammar like this is a simple, but limited, solution. It can be very tedious and error-prone for a large corpus of text, since you have to account for all possible sentence structures and tags!
 
 There are other more advanced forms of POS tagging that can learn sentence structures and tags from given data, including Hidden Markov Models (HMMs) and Recurrent Neural Networks (RNNs).
+
+(14. Notebook: POS and NER)[]
