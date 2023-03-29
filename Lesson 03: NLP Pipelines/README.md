@@ -66,3 +66,5 @@ There are other more advanced forms of POS tagging that can learn sentence struc
 [Notebook: Stemming and Lemmatization](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/stem_lemmatize_practice.ipynb)
 
 <img src='https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/Screenshot%202023-03-29%20at%201.33.52%20PM.png'/>
+
+[Notebook: Bag of Words and TF-IDF](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2003:%20NLP%20Pipelines/bow_tfidf_practice.ipynb)
