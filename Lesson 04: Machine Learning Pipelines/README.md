@@ -14,4 +14,4 @@ This corporate message data is from one of the free datasets provided on the [Fi
 
 Next, you'll use NLP to process text data, much like what you'll be doing in the project.
 
-[Case Study: Clean and Tokenize]()
+[Case Study: Clean and Tokenize](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/clean_tokenize.ipynb)
