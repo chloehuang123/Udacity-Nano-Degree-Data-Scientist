@@ -8,3 +8,8 @@ Scikit-learn Pipeline
 Scikit-learn Feature Union
 Pipelines and Grid Search
 Case Study
+
+## Corporate Messaging Case Study
+This corporate message data is from one of the free datasets provided on the [Figure Eight Platform](https://appen.com/pre-labeled-datasets/), licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+Next, you'll use NLP to process text data, much like what you'll be doing in the project.
