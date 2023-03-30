@@ -16,4 +16,4 @@ Next, you'll use NLP to process text data, much like what you'll be doing in the
 
 [Case Study: Clean and Tokenize](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/clean_tokenize.ipynb)
 
-[Case Study: Machine Learning Workflow]()
+[Case Study: Machine Learning Workflow](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/ml_workflow.ipynb)
