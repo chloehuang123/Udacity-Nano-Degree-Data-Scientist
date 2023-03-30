@@ -78,3 +78,5 @@ Note that every step of this pipeline has to be a transformer, except for the la
 - Using Pipeline, all transformations for data preparation and feature extractions occur within each fold of the cross validation process.
 - This prevents common mistakes where you’d allow your training process to be influenced by your test data - for example, if you used the entire training dataset to normalize or extract features from your data.
 - You'll see what we mean by this in a video later in this lesson about using Pipeline with GridSearchCV.
+
+[Case Study: Build Pipeline](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/pipeline.ipynb)
