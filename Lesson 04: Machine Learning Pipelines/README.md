@@ -240,3 +240,14 @@ Awesome! It's a good idea to learn how to write your own custom functions - it a
 Another way to create custom transformers is by using this FunctionTransformer from scikit-learn's preprocessing module. This allows you to wrap an existing function to become a transformer. This provides less flexibility, but is much simpler. You can learn more about this in the link below.
 
 [Case Study: Create Custom Transformer](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/custom_transformer.ipynb)
+
+## Pipelines and Grid Search
+As mentioned earlier in the lesson, a powerful benefit to using pipeline is the ability to perform a grid search on your entire workflow.
+
+Most machine learning algorithms have a set of parameters that need tuning. Grid search is a tool that allows you to define a “grid” of parameters, or a set of values to check. Your computer automates the process of trying out all possible combinations of values. Grid search scores each combination with cross validation, and uses the cross validation score to determine the parameters that produce the most optimal model.
+
+Running grid search on your pipeline allows you to try many parameter values thoroughly and conveniently, for both your data transformations and estimators.
+
+And again, although you can also run grid search on just a single classifier, running it on your whole pipeline helps you test multiple parameter combinations across your entire pipeline. This accounts for interactions among parameters not just in your model, but data preparation steps as well.
+
+Let’s see how this works.
