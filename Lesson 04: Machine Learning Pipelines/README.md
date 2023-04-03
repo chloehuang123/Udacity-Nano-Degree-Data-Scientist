@@ -80,3 +80,9 @@ Note that every step of this pipeline has to be a transformer, except for the la
 - You'll see what we mean by this in a video later in this lesson about using Pipeline with GridSearchCV.
 
 [Case Study: Build Pipeline](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/pipeline.ipynb)
+
+##Pipelines and Feature Unions
+FEATURE UNION: Feature union is a class in scikit-learn’s Pipeline module that allows us to perform steps in parallel and take the union of their results for the next step.
+
+A pipeline performs a list of steps in a linear sequence, while a feature union performs a list of steps in parallel and then combines their results.
+In more complex workflows, multiple feature unions are often used within pipelines, and multiple pipelines are used within feature unions.
