@@ -239,4 +239,4 @@ Awesome! It's a good idea to learn how to write your own custom functions - it a
 
 Another way to create custom transformers is by using this FunctionTransformer from scikit-learn's preprocessing module. This allows you to wrap an existing function to become a transformer. This provides less flexibility, but is much simpler. You can learn more about this in the link below.
 
-[Case Study: Create Custom Transformer]()
+[Case Study: Create Custom Transformer](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/custom_transformer.ipynb)
