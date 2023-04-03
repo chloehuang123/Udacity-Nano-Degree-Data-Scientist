@@ -86,3 +86,94 @@ FEATURE UNION: Feature union is a class in scikit-learn’s Pipeline module that
 
 A pipeline performs a list of steps in a linear sequence, while a feature union performs a list of steps in parallel and then combines their results.
 In more complex workflows, multiple feature unions are often used within pipelines, and multiple pipelines are used within feature unions.
+
+## Using Feature Union
+Taking the example from the previous video, let's say you wanted to extract two different kinds of features from the same text column - tfidf values, and the length of the text. Your first approach might be to create an additional column from the text column called text_length like this. Then both text and text_length can be part of your feature matrix. But now your pipeline would break. You can't run CountVectorizer on NumPy arrays of strings and integers.
+```
+df['txt_length'] = df['text'].apply(len)
+X = df[['text', 'txt_length']].values
+y = df['label'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y)
+
+pipeline = Pipeline([
+    ('vect', CountVectorizer()),
+    ('tfidf', TfidfTransformer()),
+    ('clf', RandomForestClassifier()),
+])
+
+# train classifier
+pipeline.fit(Xtrain)
+
+# predict on test data
+predicted = pipeline.predict(Xtest)
+```
+Let's say you had a custom transformer called TextLengthExtractor. Now, you could leave X_train as just the original text column, if you could figure out how to add the text length extractor to your pipeline. If only you could fit it on the original text data, rather than the output of the previous transformer. But you need both the outputs of TfidfTransformer and TextLengthExtractor to feed into the classifier as input.
+```
+X = df['text'].values
+y = df['label'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y)
+
+pipeline = Pipeline([
+    ('vect', CountVectorizer()),
+    ('tfidf', TfidfTransformer()),
+    ('txt_length', TextLengthExtractor()),
+    ('clf', RandomForestClassifier()),
+])
+
+# train classifier
+pipeline.fit(Xtrain)
+
+# predict on test data
+predicted = pipeline.predict(Xtest)
+```
+- Feature unions are super helpful for handling these situations, where we need to run two steps in parallel on the same data and combine their results to pass into the next step.
+- Like pipelines, feature unions are built using a list of (key, value) pairs, where the key is the string that you want to name a step, and the value is the estimator object. Also like pipelines, feature unions combine a list of estimators to become a single estimator. However, a feature union runs its estimators in parallel, rather than in a sequence as a pipeline does. In this example, the estimators run in parallel are nlp_pipeline and text_length. Notice we use a pipeline in this feature union to make sure the count vectorizer and tfidf transformer steps are still running in sequence.
+```
+X = df['text'].values
+y = df['label'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y)
+
+pipeline = Pipeline([
+    ('features', FeatureUnion([
+
+        ('nlp_pipeline', Pipeline([
+            ('vect', CountVectorizer()
+            ('tfidf', TfidfTransformer())
+        ])),
+
+        ('txt_len', TextLengthExtractor())
+    ])),
+
+    ('clf', RandomForestClassifier())
+])
+
+# train classifier
+pipeline.fit(Xtrain)
+
+# predict on test data
+predicted = pipeline.predict(Xtest)
+```
+- Now, our pipeline doesn't break and uses both features! This would be equivalent to this code.
+```
+vect = CountVectorizer()
+tfidf = TfidfTransformer()
+txt_len = TextLengthExtractor()
+clf = RandomForestClassifier()
+
+# train classifier
+X_train_counts = vect.fit_transform(X_train)
+X_train_tfidf = tfidf.fit_transform(X_train_counts)
+
+X_train_len = txt_len.fit_transform(X_train)
+X_train_features = hstack([X_train_tfidf, X_train_len])
+clf.fit(X_train_features, y_train)
+
+# predict on test data
+X_test_counts = vect.transform(X_test)
+X_test_tfidf = tfidf.transform(X_test_counts)
+
+X_test_len = txt_len.transform(X_test)
+X_test_features = hstack([X_test_tfidf, X_test_len])
+y_pred = clf.predict(X_test_features)
+```
+The tfidf transformer and the text length extractor are fit to the input data, in this case the raw data, independently. They are then performed in parallel, and their outputs are combined and passed to the next estimator, in this case, the classifier.
