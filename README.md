@@ -30,4 +30,4 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 
 [Lesson 03: NLP Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2003:%20NLP%20Pipelines)
 
-[Lesson 04: Machine Learning Pipelines]()
+[Lesson 04: Machine Learning Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2004:%20Machine%20Learning%20Pipelines)
