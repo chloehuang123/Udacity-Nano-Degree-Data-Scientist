@@ -177,3 +177,5 @@ X_test_features = hstack([X_test_tfidf, X_test_len])
 y_pred = clf.predict(X_test_features)
 ```
 The tfidf transformer and the text length extractor are fit to the input data, in this case the raw data, independently. They are then performed in parallel, and their outputs are combined and passed to the next estimator, in this case, the classifier.
+
+[Case Study: Add Feature Union](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/feature_union_practice.ipynb)
