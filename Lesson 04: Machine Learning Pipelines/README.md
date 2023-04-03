@@ -305,3 +305,5 @@ Now, since the rescaling is included as part of the pipeline, the standardizatio
 **Note on Run Time**
 
 Running grid search can take a while, especially if you are searching over a lot of parameters! If you want to reduce it to a few minutes, try commenting out some of your parameters to grid search over just 1 or 2 parameters with a small number of values each. Once you know that works, feel free to add more parameters and see how well your final model can perform! You can try this out in the next page.
+
+[Case Study: Grid Search Pipeline](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/blob/main/Lesson%2004:%20Machine%20Learning%20Pipelines/grid_search.ipynb)
