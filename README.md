@@ -34,9 +34,15 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 
 ## Part 05 : Experimental Design & Recommendations
 [Lesson 01: Intro to Experiment Design and Recommendation Engines]()
+
 [Lesson 02: Concepts in Experiment Design]()
+
 [Lesson 03: Statistical Considerations in Testing]()
+
 [Lesson 04: A/B Testing Case Study]()
+
 [Lesson 05: Portfolio Exercise: Starbucks]()
+
 [Lesson 06: Introduction to Recommendation Engines]()
+
 [Lesson 07: Matrix Factorization for Recommendations]()
