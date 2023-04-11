@@ -285,3 +285,32 @@ against quarterly or annual "objectives." These objectives and KRs / KPIs serve
 a similar purpose as study goals and evaluation metrics, and might even be
 driving factors in the creation of an experiment.
 
+## Creating Metrics
+### Creating Metrics Funnels
+There are additional concepts and terms that are commonly used for designing
+experiments, especially for web-based studies. In a web experiment, you'll
+often think of the user funnel. A funnel is the flow of steps you expect a
+user of your product to take. Typically, the funnel ends at the place where
+your main evaluation metric is recorded, and includes a step where your
+experimental manipulation can be performed. For example, we might think of the
+following steps for someone to purchase a product in an online store:
+
+Visit the site homepage
+Search for a desired product or click on a product category
+Click on a product image
+Add the product to the cart
+Check out and finalize purchase
+One property to note about user funnels is that typically there will be some
+dropoff in the users that move from step to step. This is much like how an
+actual funnel narrows from a large opening to a small exit. Outside of an
+experiment, funnels can be used to analyze user flows. Observations from these
+flows can then be used to motivate experiments to try and improve the dropoff
+rates.
+
+It's also worth noting that the flow through a funnel might be idealized
+compared to actual user practice. In the above example, users might perform
+multiple searches in a single session, or want to purchase multiple things. A
+user might access the site through a specific link, subverting the top part of
+the funnel. Refining the funnel and being specific about the kinds of events
+that are expected can help you create a consistent, reliable design and
+analysis.
