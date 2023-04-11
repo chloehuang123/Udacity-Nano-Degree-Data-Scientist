@@ -30,3 +30,6 @@ In this lesson, you will learn about the main ideas associated with recommendati
 - II. Matrix Factorization for Recommendations
 
 Extending on the previous lesson, you will learn about one of the most popular techniques for recommendation engines known as FunkSVD. You will also complete a class that brings together a number of techniques to make recommendations for a number of different scenarios.
+
+### Project
+At the end of this course, you will complete a project that uses data from the IBM Watson Studio platform to make recommendations for which articles a user should engage with! Hope you are excited to get started!
