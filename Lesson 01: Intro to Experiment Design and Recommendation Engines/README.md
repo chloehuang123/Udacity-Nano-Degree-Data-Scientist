@@ -374,3 +374,30 @@ that might be less reliable or highly correlated to other, more informative
 features. We'll discuss statistical considerations surrounding metrics in the
 next lesson.
 
+## Controlling Variables
+If we want to determine causality between two features, there are two main
+things to control. First of all, we need to enact the manipulation on one of the
+features of interest, so that we know that it is causing the change in the other
+feature. In order to know that it was our manipulated variable and not any
+other, the second major control point is that we want to make sure that all
+other features are accounted for. These two requirements make the arguments for
+causality much stronger with an experiment compared to a quasi-experiment or
+observational study.
+
+If we aren't able to control all features or there is a lack of equivalence
+between groups, then we may be susceptible to confounding variables. The
+correlation observed between two variables might be due to changes in a third
+variable, rather than one causing the other. Another possibility is that there
+is a causal relationship between the two features, but it is an indirect
+relationship mediated by a third, intermediate variable. This intermediate
+variable might be a larger driver of the changes in the output, with the
+manipulated variable only having a direct effect on the intermediate feature.
+
+For the case where we see a relationship but don't perform a manipulation, we
+also need to be careful about the direction of effect. A relationship between
+variables "A" and "B" might be due to "A" having an effect on "B" or the
+reverse, "B" having an effect on "A". It might even be the case that "A" and "B"
+are related through some other function like a third variable.
+
+### Additional Reference
+Wikipedia: Correlation does not imply causation - Reference page with examples of how an observed correlation between two features might come about.
