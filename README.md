@@ -31,3 +31,12 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 [Lesson 03: NLP Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2003:%20NLP%20Pipelines)
 
 [Lesson 04: Machine Learning Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2004:%20Machine%20Learning%20Pipelines)
+
+## Part 05 : Experimental Design & Recommendations
+[Lesson 01: Intro to Experiment Design and Recommendation Engines]()
+[Lesson 02: Concepts in Experiment Design]()
+[Lesson 03: Statistical Considerations in Testing]()
+[Lesson 04: A/B Testing Case Study]()
+[Lesson 05: Portfolio Exercise: Starbucks]()
+[Lesson 06: Introduction to Recommendation Engines]()
+[Lesson 07: Matrix Factorization for Recommendations]()
