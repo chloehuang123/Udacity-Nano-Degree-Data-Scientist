@@ -33,7 +33,7 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 [Lesson 04: Machine Learning Pipelines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2004:%20Machine%20Learning%20Pipelines)
 
 ## Part 05 : Experimental Design & Recommendations
-[Lesson 01: Intro to Experiment Design and Recommendation Engines]()
+[Lesson 01: Intro to Experiment Design and Recommendation Engines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2001:%20Intro%20to%20Experiment%20Design%20and%20Recommendation%20Engines)
 
 [Lesson 02: Concepts in Experiment Design]()
 
