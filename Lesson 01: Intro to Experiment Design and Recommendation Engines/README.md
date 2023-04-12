@@ -401,3 +401,34 @@ are related through some other function like a third variable.
 
 ### Additional Reference
 Wikipedia: Correlation does not imply causation - Reference page with examples of how an observed correlation between two features might come about.
+
+## Checking Validity
+When designing an experiment, it's important to keep in mind validity, which
+concerns how well conclusions can be supported. There are three major
+conceptual dimensions upon which validity can be assessed:
+
+- Construct Validity
+- Internal Validity
+- External Validity
+
+### Construct Validity
+Construct validity is tied to the earlier discussion of how well one's goals
+are aligned to the evaluation metrics used to evaluate it. Poor construct
+validity can come about when an evaluation metric does not actually measure
+something related to the desired outcome concept. Alternatively, it might be
+that a metric is ill-constructed, such that it does not make clear distinctions
+on the outcome concept.
+
+### Internal Validity
+Internal validity refers to the degree to which a causal relationship can be
+derived from an experiment's results. Controlling for and accounting for other
+variables is key to maintaining good internal validity. The previous page on
+controlling variables shows ways in which internal validity might not be met.
+
+### External Validity
+External validity is concerned with the ability of an experimental outcome to
+be generalized to a broader population. This is most relevant with experiments
+that involve sampling: how representative is the sample to the whole? For
+studies at academic institutions, a frequent question is if data collected
+using only college students can be generalized to other age or socioeconomic
+groups.
