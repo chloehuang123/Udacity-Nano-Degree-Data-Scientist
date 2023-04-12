@@ -35,9 +35,9 @@ Udacity material resource can be found [here](https://github.com/udacity/DSND_Te
 ## Part 05 : Experimental Design & Recommendations
 [Lesson 01: Intro to Experiment Design and Recommendation Engines](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2001:%20Intro%20to%20Experiment%20Design%20and%20Recommendation%20Engines)
 
-[Lesson 02: Concepts in Experiment Design]()
+[Lesson 02: Concepts in Experiment Design](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2001:%20Intro%20to%20Experiment%20Design%20and%20Recommendation%20Engines)
 
-[Lesson 03: Statistical Considerations in Testing]()
+[Lesson 03: Statistical Considerations in Testing](https://github.com/chloehuang123/Udacity-Nano-Degree-Data-Scientist/tree/main/Lesson%2003:%20Statistical%20Considerations%20in%20Testing)
 
 [Lesson 04: A/B Testing Case Study]()
 
