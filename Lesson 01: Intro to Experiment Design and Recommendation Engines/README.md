@@ -509,3 +509,15 @@ of a procedure or the participant do not know the condition being used, to
 avoid that subconscious bias from having an effect. In particular, the
 double-blind design hides condition information from both the administrator
 and participant in order to have a strong rein on experimenter-based biases.
+
+## SMART Mnemonic for Experiment Design
+There's a mnemonic called SMART for teams to plan out projects that also happens to apply pretty well for creating experiments. The letters of SMART stand for:
+
+- Specific: Make sure the goals of your experiment are specific.
+- Measurable: Outcomes must be measurable using objective metrics
+- Achievable: The steps taken for the experiment and the goals must be realistic.
+- Relevant: The experiment needs to have purpose behind it.
+- Timely: Results must be obtainable in a reasonable time frame.
+
+There are also other words possible for the mnemonic, such as Actionable and Realistic. Ultimately, however, the message is pretty much the same, with the dimensions switched around a bit. Note, however, that the mnemonic doesn't cover certain considerations important to experiment design. Considerations of ethical issues or bias will need to be considered separately, so don't just take the mnemonic as the final judge of whether your experiment is ready to proceed!
+
