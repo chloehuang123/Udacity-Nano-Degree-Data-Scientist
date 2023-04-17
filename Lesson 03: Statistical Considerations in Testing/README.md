@@ -14,3 +14,5 @@ interpretation of outcomes where it is relevant.
 If you consider the confidence interval for an evaluation metric statistic
 against the null baseline and practical significance bound, there are a few
 cases that can come about.
+
+[06. Experiment Size]()
